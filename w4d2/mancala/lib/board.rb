@@ -35,7 +35,8 @@ class Board
 
   def make_move(start_pos, current_player_name)
       self.cups[start_pos] = []
-      @cups.take_turn(current_player_name)
+      transposed  = 0
+      start_pos - 1 if (1..6).include?(start_pos)
      self.render
   end
 

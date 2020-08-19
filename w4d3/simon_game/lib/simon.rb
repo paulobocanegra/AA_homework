@@ -37,19 +37,15 @@ class Simon
   end
 
   def require_sequence
-
-  end
-
-  def add_random_color
-
+    "I am required, who are you?"
   end
 
   def round_success_message
-
+    puts "that was the sequence!"
   end
 
   def game_over_message
-
+    puts "Nice try! Show me a higher score next time!"
   end
 
   def reset_game
